@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Textos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Comparador de Textos</h1>
+    <form action="/compare" method="post">
+        <textarea name="text1" placeholder="Digite o primeiro texto"></textarea>
+        <textarea name="text2" placeholder="Digite o segundo texto"></textarea>
+        <button type="submit">Comparar</button>
+    </form>
+</body>
+</html>

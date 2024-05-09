@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado da Comparação</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Resultado da Comparação</h1>
+    <div class="texto">
+        <p>Texto 1:</p>
+        <p>{{ text1 }}</p>
+    </div>
+    <div class="texto">
+        <p>Texto 2:</p>
+        <p>{{ text2 }}</p>
+    </div>
+    <div class="diferencas">
+        <p>Diferenças:</p>
+        <p>{{ diferencas }}</p>
+    </div>
+</body>
+</html>

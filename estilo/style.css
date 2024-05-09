@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.texto {
+    margin-top: 50px;
+}
+
+.texto p {
+    font-weight: bold;
+}
+
+.diferencas {
+    margin-top: 20px;
+}
+
+.diferencas p {
+    font-weight: bold;
+}
+
+u {
+    color: red;
+}
